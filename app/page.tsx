@@ -135,7 +135,7 @@ export default function HomePage() {
               className="group flex flex-col items-center text-center space-y-3"
             >
               {/* Smartphone Frame Container */}
-              <div className="relative w-full aspect-[9/19] rounded-2xl sm:rounded-3xl p-1 bg-slate-900 shadow-xl shadow-slate-900/10 ring-1 ring-slate-800/80 overflow-hidden group-hover:-translate-y-1.5 group-hover:shadow-2xl transition-all duration-300">
+              <div className="relative w-full aspect-9/19 rounded-2xl sm:rounded-3xl p-1 bg-slate-900 shadow-xl shadow-slate-900/10 ring-1 ring-slate-800/80 overflow-hidden group-hover:-translate-y-1.5 group-hover:shadow-2xl transition-all duration-300">
                 <div className="relative w-full h-full rounded-[14px] sm:rounded-[22px] overflow-hidden bg-[#0c0d11]">
                   <Image
                     src={screen.src}
