@@ -1,7 +1,5 @@
 import React from "react";
-import Link from "next/link";
 import {
-  ArrowLeft,
   Mail,
   MessageSquare,
   HelpCircle,
@@ -68,13 +66,6 @@ export default function SupportPage() {
       {/* 🧭 Top Breadcrumb & Hero (max-w-7xl) */}
       <section className="w-full py-12 lg:py-16 px-6 sm:px-12 lg:px-20 bg-slate-50/70 border-b border-slate-100">
         <div className="w-full max-w-7xl mx-auto space-y-4">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-xs font-semibold text-slate-500 hover:text-orange-600 transition-colors"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            <span>Back to Home</span>
-          </Link>
 
           <div className="flex items-center gap-2 text-orange-600 text-xs font-mono font-bold tracking-wider uppercase">
             <HelpCircle className="w-4 h-4" />
