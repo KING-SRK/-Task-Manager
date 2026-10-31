@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  ShieldCheck,
-  Lock,
-  Bell,
-  AlertTriangle,
-} from "lucide-react";
+import { ShieldCheck, Lock, Bell, AlertTriangle } from "lucide-react";
 
 export default function PrivacyPolicyPage() {
   const lastUpdated = "October 30, 2026";
@@ -14,7 +9,6 @@ export default function PrivacyPolicyPage() {
       {/* 🧭 Top Breadcrumb & Header (max-w-7xl) */}
       <section className="w-full py-12 lg:py-16 px-6 sm:px-12 lg:px-20 bg-slate-50/70 border-b border-slate-100">
         <div className="w-full max-w-7xl mx-auto space-y-4">
-
           <div className="flex items-center gap-2 text-orange-600 text-xs font-mono font-bold tracking-wider uppercase">
             <ShieldCheck className="w-4 h-4" />
             <span>Official Policy Document</span>
@@ -25,8 +19,9 @@ export default function PrivacyPolicyPage() {
           </h1>
 
           <p className="text-xs sm:text-sm text-slate-500 font-mono">
-            <strong>Task Manager</strong> – Developed by{" "}
-            <strong>Grow Tech</strong> • Last Updated: {lastUpdated}
+            <strong>Task Manager</strong> – Crafted by{" "}
+            <strong>GrowTech Software Development Services</strong> • Last
+            Updated: {lastUpdated}
           </p>
         </div>
       </section>
@@ -36,12 +31,12 @@ export default function PrivacyPolicyPage() {
         <div className="w-full max-w-7xl mx-auto space-y-10 text-xs sm:text-sm leading-relaxed text-slate-600">
           {/* Intro */}
           <div className="p-6 rounded-2xl bg-orange-50/50 border border-orange-100 text-slate-700 leading-relaxed">
-            At <strong>Grow Tech</strong>, we respect your privacy. Task Manager
-            is designed as an offline-first personal productivity application
-            that allows you to manage your daily activities and personal
-            information directly on your device. This Privacy Policy explains
-            how the application handles information, uses device permissions,
-            and protects your privacy.
+            At <strong>GrowTech Software Development Services</strong>, we
+            respect your privacy. Task Manager is designed as an offline-first
+            personal productivity application that allows you to manage your
+            daily activities and personal information directly on your device.
+            This Privacy Policy explains how the application handles
+            information, uses device permissions, and protects your privacy.
           </div>
 
           {/* Section 1 */}
@@ -88,8 +83,8 @@ export default function PrivacyPolicyPage() {
                 service.
               </li>
               <li>
-                Your personal entries are not automatically uploaded to Grow
-                Tech servers.
+                Your personal entries are not automatically uploaded to GrowTech
+                Software Development Services servers.
               </li>
               <li>
                 You can access and manage your stored information without an
@@ -215,8 +210,9 @@ export default function PrivacyPolicyPage() {
               </li>
             </ul>
             <p className="text-slate-500">
-              Grow Tech does not maintain a remote copy of users&apos; personal
-              entries that can be restored through a cloud account.
+              GrowTech Software Development Services does not maintain a remote
+              copy of users&apos; personal entries that can be restored through
+              a cloud account.
             </p>
           </section>
 
@@ -260,10 +256,10 @@ export default function PrivacyPolicyPage() {
               This Privacy Policy
             </h2>
             <p>
-              Grow Tech may update this Privacy Policy when application
-              features, functionality, or applicable requirements change.
-              Updated versions will be published on this official website with a
-              revised update date.
+              GrowTech Software Development Services may update this Privacy
+              Policy when application features, functionality, or applicable
+              requirements change. Updated versions will be published on this
+              official website with a revised update date.
             </p>
           </section>
 
@@ -283,7 +279,9 @@ export default function PrivacyPolicyPage() {
                   <span className="text-[11px] font-mono uppercase text-slate-400">
                     Developer
                   </span>
-                  <p className="font-bold text-slate-900">Grow Tech</p>
+                  <p className="font-bold text-slate-900">
+                    GrowTech Software Development Services
+                  </p>
                 </div>
                 <div>
                   <span className="text-[11px] font-mono uppercase text-slate-400">

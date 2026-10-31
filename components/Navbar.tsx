@@ -36,12 +36,12 @@ export default function Navbar() {
             />
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col space-y-1">
             <span className="font-extrabold text-base tracking-tight text-slate-900 group-hover:text-orange-600 transition-colors">
               Task Manager
             </span>
-            <span className="text-[10px] font-mono text-slate-400 -mt-1">
-              by Grow Tech
+            <span className="text-[10px] font-mono tracking-tight text-slate-400 -mt-1">
+              A GrowTech Software Development Services Creation
             </span>
           </div>
         </Link>

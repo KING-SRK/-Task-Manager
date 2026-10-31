@@ -86,13 +86,16 @@ export default function HomePage() {
         </span>
 
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-slate-900 leading-tight">
-          Master Your Day with <span className="text-orange-600">Tasks</span>,{" "}
+          Master Your Day with <br /> <span className="text-orange-600">Tasks</span>,{" "}
           <span className="text-amber-500">Goals</span> &{" "}
           <span className="text-rose-500">Notes</span>.
         </h1>
 
         <p className="text-base sm:text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
-          Task Manager by <strong className="text-slate-900">Grow Tech</strong>{" "}
+          Task Manager by{" "}
+          <strong className="text-slate-900">
+            GrowTech Software Development Services
+          </strong>{" "}
           is a 100% offline-first workspace to manage daily routines, track
           streak habits, and secure notes locally on your device.
         </p>

@@ -32,8 +32,8 @@ export default function SupportPage() {
       icon: HardDrive,
     },
     {
-      q: "Where is my data stored? Does Grow Tech have access to it?",
-      a: "Your data never leaves your physical phone. Everything is stored locally in your device's sandboxed storage. Grow Tech does not maintain remote servers or collect copies of your entries.",
+      q: "Where is my data stored? Does GrowTech Software Development Services have access to it?",
+      a: "Your data never leaves your physical phone. Everything is stored locally in your device's sandboxed storage. GrowTech Software Development Services does not maintain remote servers or collect copies of your entries.",
       icon: ShieldCheck,
     },
     {
@@ -78,7 +78,7 @@ export default function SupportPage() {
 
           <div className="flex items-center gap-2 text-orange-600 text-xs font-mono font-bold tracking-wider uppercase">
             <HelpCircle className="w-4 h-4" />
-            <span>Grow Tech Help Desk</span>
+            <span>GrowTech Software Development Services Help Desk</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
@@ -127,10 +127,10 @@ export default function SupportPage() {
               </h3>
               <p className="text-xs text-slate-500">
                 Direct community line for quick troubleshooting and instant
-                inquiries with the Grow Tech core team.
+                inquiries with the GrowTech Software Development Services team.
               </p>
               <a
-                href="https://wa.me/+918902709631?text=Hi%20Grow%20Tech,%20I%20need%20assistance%20regarding%20Task%20Manager%20app."
+                href="https://wa.me/+918902709631?text=Hi%20GrowTech%20Software%20Development%20Services,%20I%20need%20assistance%20regarding%20Task%20Manager%20app."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm font-bold text-emerald-600 hover:underline block pt-1"

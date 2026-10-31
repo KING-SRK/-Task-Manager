@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  FileText,
-  AlertTriangle,
-} from "lucide-react";
+import { FileText, AlertTriangle } from "lucide-react";
 
 export default function TermsPage() {
   const effectiveDate = "October 30, 2026";
@@ -12,7 +9,6 @@ export default function TermsPage() {
       {/* 🧭 Top Breadcrumb & Header (max-w-7xl) */}
       <section className="w-full py-12 lg:py-16 px-6 sm:px-12 lg:px-20 bg-slate-50/70 border-b border-slate-100">
         <div className="w-full max-w-7xl mx-auto space-y-4">
-
           <div className="flex items-center gap-2 text-orange-600 text-xs font-mono font-bold tracking-wider uppercase">
             <FileText className="w-4 h-4" />
             <span>Legal Documentation</span>
@@ -23,8 +19,9 @@ export default function TermsPage() {
           </h1>
 
           <p className="text-xs sm:text-sm text-slate-500 font-mono">
-            <strong>Task Manager</strong> – Developed by{" "}
-            <strong>Grow Tech</strong> • Effective Date: {effectiveDate}
+            <strong>Task Manager</strong> – Crafted by{" "}
+            <strong>GrowTech Software Development Services</strong> • Effective
+            Date: {effectiveDate}
           </p>
         </div>
       </section>
@@ -35,9 +32,11 @@ export default function TermsPage() {
           {/* Welcome Message */}
           <div className="p-6 rounded-2xl bg-orange-50/50 border border-orange-100 text-slate-700 leading-relaxed">
             Welcome to <strong>Task Manager</strong>, a personal productivity
-            application developed by <strong>Grow Tech</strong>. By downloading,
-            installing, or using this application, you agree to these Terms &
-            Conditions. Please read them carefully before using the application.
+            application Crafted by{" "}
+            <strong>GrowTech Software Development Services</strong>. By
+            downloading, installing, or using this application, you agree to
+            these Terms & Conditions. Please read them carefully before using
+            the application.
           </div>
 
           {/* Section 1 */}
@@ -307,7 +306,9 @@ export default function TermsPage() {
                   <span className="text-[11px] font-mono uppercase text-slate-400">
                     Developer
                   </span>
-                  <p className="font-bold text-slate-900">Grow Tech</p>
+                  <p className="font-bold text-slate-900">
+                    GrowTech Software Development Services
+                  </p>
                 </div>
                 <div>
                   <span className="text-[11px] font-mono uppercase text-slate-400">
